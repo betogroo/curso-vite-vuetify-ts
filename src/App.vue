@@ -3,17 +3,17 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
-import HomeView from "./views/HomeView.vue";
+import { defineComponent } from 'vue'
+import HomeView from './views/HomeView.vue'
 
 export default defineComponent({
   components: {
-    HomeView,
+    HomeView
   },
   setup() {
-    return {};
-  },
-});
+    return {}
+  }
+})
 </script>
 
 <style scoped></style>
